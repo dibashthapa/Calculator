@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <form name="forms">
+        <input  class="textfield" type="text" name="field"><br>
+        <div class="row">
+            <input type="button" value="1" onclick="forms.field.value+='1' ">
+            <input type="button" value="2" onclick="form.field.value+='2' ">
+            <input type="button" value="3" onclick="form.field.value+='3' "><br>
+            <input type="button" value="4" onclick="form.field.value+='4' ">
+            <input type="button" value="5" onclick="form.field.value+='5' ">
+            <input type="button" value="6" onclick="form.field.value+='6' "><br>
+            <input type="button" value="7" onclick="form.field.value+='7' ">
+            <input type="button" value="8" onclick="form.field.value+='8' ">
+            <input type="button" value="9" onclick="form.field.value+='9' "><br>
+            <input type="button" value="0" onclick="form.field.value+='0' ">
+            <input type="button" value="+" onclick="form.field.value+='+' ">
+            <input type="button" id="equal" value="=" onclick="form.field.value=eval(form.field.value)"><br>
+            <input type="button" value="√" onclick="root()">
+</div>  
+<div class="columns">
+    <input type="button" value="C" onclick="form.field.value='' "><br>
+    <input type="button" class="second" value="%" onclick="form.field.value+='%' ">
+    <input type="button" class="second" value="÷" onclick="form.field.value+='/' ">
+    <input type="button" value="x²" onclick="power()">
+</div>
+    </form>
+    <script src="calc.js"></script>
+</body>
+</html>

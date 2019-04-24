@@ -1,0 +1,33 @@
+.textfield {
+    height:80px;
+    width:420px;
+    font-size:30px;
+}
+
+.row input {
+    width:90px;
+    height:80px;
+    margin:10px;
+    border-radius:50%;
+    background-color: rgb(197,197,195);
+    border:0px;
+}
+.columns input {
+    height: 80px;
+    width: 84px;
+    display: table;
+    vertical-align: middle;
+    position: relative;
+    left:350px;
+    bottom: 492px;
+    background-color: orange;
+    border-radius:50%;
+    border:0px;
+
+}
+.second {
+    margin-bottom:15px;
+}
+.row input:hover,.columns input:hover {
+    background-color:green;
+}
